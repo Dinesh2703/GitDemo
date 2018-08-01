@@ -23,11 +23,11 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             int x = 30;
-            int y = 20;
+            int y = 50;
             op m = new op();
 
             Console.WriteLine("sum is" + m.sum(x, y));
-            Console.WriteLine("Multiplication is" + m.mul(x, y));
+            Console.WriteLine("Value is" + m.mul(x, y));
             Console.ReadKey();
         }
     }
